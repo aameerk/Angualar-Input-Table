@@ -17,7 +17,7 @@ export class InputTableComponent implements OnInit {
         'age': '',
         'occupation': '',
         'contactnumber': '',
-        'dependent': '',
+        'married': '',
         'mobile': this.active.snapshot.paramMap.get('mobile_no1')
       },
       {
@@ -27,7 +27,7 @@ export class InputTableComponent implements OnInit {
         'age': '',
         'occupation': '',
         'contactnumber': '',
-        'dependent': ''
+        'married': ''
       },
       {
         'sno':'3',
@@ -36,7 +36,7 @@ export class InputTableComponent implements OnInit {
         'age': '',
         'occupation': '',
         'contactnumber': '',
-        'dependent': ''
+        'married': ''
       },
       {
         'sno':'4',
@@ -45,6 +45,6 @@ export class InputTableComponent implements OnInit {
         'age': '',
         'occupation': '',
         'contactnumber': '',
-        'dependent': ''
+        'married': ''
       },
     ];
